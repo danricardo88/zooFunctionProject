@@ -2,7 +2,6 @@ const handlerElephants = require('../src/handlerElephants');
 
 describe('Testes da função HandlerElephants', () => {
   it('if return is undefined', () => {
-
     const agora = handlerElephants();
     const expected = undefined;
     expect(agora).toEqual(expected);
