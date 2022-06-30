@@ -14,7 +14,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(agora).toEqual(expected);
   });
 
-  it('if para to equals count', () => {
+  it('if param to equals count', () => {
     const agora1 = handlerElephants('count');
     const agora2 = handlerElephants('names');
     const agora3 = handlerElephants('averageAge');
