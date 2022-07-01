@@ -46,7 +46,6 @@ describe('Testes da função getOpeningHours', () => {
     expect(() => { getOpeningHours('Tuesday', '09:60-am'); }).toThrowError(new Error('The minutes must be between 0 and 59'));
   });
 
-
   it('not param expect full object', () => {
     const agora = getOpeningHours();
     const expected = {
